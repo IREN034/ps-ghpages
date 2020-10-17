@@ -27,7 +27,9 @@ You will also see any lint errors in the console.
 
 5 進到 Github 專案的設定頁面： 在 Source 選擇到的來源是 gh-pages branch 即可
 
-### :
+### styled-components:
 
-1 React-Styled Components 透過 ThemeProvider 來更換網頁色彩主題樣式： https://reurl.cc/WLO9Y5
+1 安裝: https://styled-components.com/docs/basics#installation
+
+2 React-Styled Components 透過 ThemeProvider 來更換網頁色彩主題樣式： https://reurl.cc/WLO9Y5
 import styled, { ThemeProvider } from 'styled-components';
