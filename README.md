@@ -20,10 +20,10 @@ You will also see any lint errors in the console.
 
 3 到 package.json 檔案中的 scripts 欄位中添加以下指令： 
 
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
 
-4 發布： npm run deploy
+4 發布： npm run deploy 或 yarn run deploy
 
 5 進到 Github 專案的設定頁面： 在 Source 選擇到的來源是 gh-pages branch 即可
 
